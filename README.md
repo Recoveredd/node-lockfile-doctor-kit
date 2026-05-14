@@ -7,6 +7,10 @@ Inspect Node package-manager lockfile consistency with structured diagnostics.
 
 `node-lockfile-doctor-kit` is a clean-room TypeScript package for checking a project snapshot before a CI install surprises you. The core accepts file contents in memory, has no runtime dependencies, and stays browser-friendly. A small optional CLI reads files from disk when used in Node.
 
+## Demo
+
+Try the browser preview: [packages.wasta-wocket.fr/node-lockfile-doctor-kit](https://packages.wasta-wocket.fr/node-lockfile-doctor-kit/).
+
 ## Install
 
 ```bash
