@@ -11,6 +11,15 @@ Inspect Node package-manager lockfile consistency with structured diagnostics.
 
 Try the browser preview: [packages.wasta-wocket.fr/node-lockfile-doctor-kit](https://packages.wasta-wocket.fr/node-lockfile-doctor-kit/).
 
+## Package quality
+
+- TypeScript types are generated from the source.
+- ESM-only package with no runtime dependencies.
+- Marked as side-effect free for bundlers.
+- CI runs `npm ci`, `typecheck`, `build`, and `test`.
+- Tested on Node.js 20 and 22 with GitHub Actions.
+- Browser-friendly core with no Node-only APIs; only the optional CLI reads files from disk.
+
 ## Install
 
 ```bash
